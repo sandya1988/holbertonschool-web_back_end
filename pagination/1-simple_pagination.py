@@ -57,4 +57,4 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
     final_size: int = page * page_size
     start_size: int = final_size - page_size
 
-    return (start_size, final_size)s
+    return (start_size, final_size)
